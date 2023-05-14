@@ -1,10 +1,8 @@
-/******************************************************************************
   Project:      HOME_ASSIGNMENT
   Description:  README FILE
   Author:       Michael
   Date:         13/12/23
   Version:      1.0
- ******************************************************************************/
 For understanding the performance you can read AssignmentBenchmark.pdf
 
 Benchmark file create an instance of Data class, default size of 1 mil ints [0;100],
