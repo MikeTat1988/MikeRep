@@ -47,10 +47,10 @@ Results -
 For each run of benchmark file there will be two results inseted - Parallel Compress 
 and Regular Compress times in milliseconds , as follows :
 
-a. Wall time:        time elapsed in the real world ( with no multithreading is wequal to CPU time)
-b. CPU run time:     time elapsed on CPU cores ( on multithreading is the sum of all threads times)
-c. User mode time:   time elapsed in user mode
-d. Kernel mode time: time elapsed in kernel mode ( in our cas - paging of the data )
+* Wall time:        time elapsed in the real world ( with no multithreading is wequal to CPU time)
+* CPU run time:     time elapsed on CPU cores ( on multithreading is the sum of all threads times)
+* User mode time:   time elapsed in user mode
+* Kernel mode time: time elapsed in kernel mode ( in our cas - paging of the data )
 
 example from log :
 * [16:09:32.649] INFO [test/benchmark.cpp:264] Regular Compress: 
