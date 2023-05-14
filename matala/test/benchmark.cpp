@@ -105,8 +105,6 @@ int main(int argc, char* argv[])
 
         g_toWrite = false;
 
-        TimeCheck(myData);
-
         cout << "Benchmark ended successfuly" << endl;
     }
 
