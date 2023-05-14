@@ -26,7 +26,7 @@ After that the g_Test and g_toEtite are set to false to not interfere with the
 times testing and the benchmark tests are being run - 
 
     a. Regular bitpacking and unpacking of data (without testing - as it was tested earlier)
-    b. Multithreaded bitpacking, using 6 cores (default - can be changed)
+    b. Multithreaded bitpacking
 
 ********************************************************************************
 run make before runing the execurtable
