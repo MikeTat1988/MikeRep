@@ -60,3 +60,4 @@ example from log :
 * [16:09:32.649] INFO [test/benchmark.cpp:266] CPU run time:     682.302000 ms
 * [16:09:32.649] INFO [test/benchmark.cpp:267] User mode time:   660.000000 ms
 * [16:09:32.649] INFO [test/benchmark.cpp:268] Kernel mode time: 30.000000 ms
+
