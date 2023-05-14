@@ -22,8 +22,7 @@ corresponding file in ./data folder.
 Test results (passed / not passed) will be printed into a log file located in log
 folder.
 
-After that the g_Test and g_toEtite are set to false to not interfere with the 
-times testing and the benchmark tests are being run - 
+After the benchmark tests are being run - 
 
     a. Single threaded compress - bitpacking algorithm
     b. Multithreaded compress - bitpacking algorithm
