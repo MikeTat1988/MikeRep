@@ -1,0 +1,38 @@
+[16:09:26.428] INFO [test/benchmark.cpp:56]  
+[16:09:26.428] INFO [test/benchmark.cpp:57]    NEW BENCHMARK
+[16:09:28.626] INFO [test/benchmark.cpp:139] ReadWrite Test Passed
+[16:09:29.284] INFO [test/benchmark.cpp:224] Compression Test bpack Passed
+[16:09:29.859] INFO [test/benchmark.cpp:224] Compression Test bpackRL Passed
+[16:09:31.351] INFO [test/benchmark.cpp:224] Compression Test bpackRL_Sorted Passed
+[16:09:31.678] INFO [test/benchmark.cpp:224] Compression Test multBpack Passed
+[16:09:31.965] INFO [test/benchmark.cpp:263]  
+[16:09:31.966] INFO [test/benchmark.cpp:264] Parallel Compress: 
+[16:09:31.966] INFO [test/benchmark.cpp:265] Wall time:        285.403702 ms
+[16:09:31.966] INFO [test/benchmark.cpp:266] CPU run time:     1233.479000 ms
+[16:09:31.966] INFO [test/benchmark.cpp:267] User mode time:   1200.000000 ms
+[16:09:31.966] INFO [test/benchmark.cpp:268] Kernel mode time: 20.000000 ms
+[16:09:32.649] INFO [test/benchmark.cpp:263]  
+[16:09:32.649] INFO [test/benchmark.cpp:264] Regular Compress: 
+[16:09:32.649] INFO [test/benchmark.cpp:265] Wall time:        683.760819 ms
+[16:09:32.649] INFO [test/benchmark.cpp:266] CPU run time:     682.302000 ms
+[16:09:32.649] INFO [test/benchmark.cpp:267] User mode time:   660.000000 ms
+[16:09:32.649] INFO [test/benchmark.cpp:268] Kernel mode time: 30.000000 ms
+[16:12:45.290] INFO [test/benchmark.cpp:56]  
+[16:12:45.290] INFO [test/benchmark.cpp:57]    NEW BENCHMARK
+[16:12:46.290] INFO [test/benchmark.cpp:139] ReadWrite Test Passed
+[16:12:46.290] INFO [test/benchmark.cpp:224] Compression Test bpack Passed
+[16:12:46.290] INFO [test/benchmark.cpp:224] Compression Test bpackRL Passed
+[16:12:46.291] INFO [test/benchmark.cpp:224] Compression Test bpackRL_Sorted Passed
+[16:12:46.291] INFO [test/benchmark.cpp:224] Compression Test multBpack Passed
+[16:12:46.292] INFO [test/benchmark.cpp:263]  
+[16:12:46.292] INFO [test/benchmark.cpp:264] Parallel Compress: 
+[16:12:46.292] INFO [test/benchmark.cpp:265] Wall time:        0.528082 ms
+[16:12:46.292] INFO [test/benchmark.cpp:266] CPU run time:     1.071000 ms
+[16:12:46.292] INFO [test/benchmark.cpp:267] User mode time:   0.000000 ms
+[16:12:46.292] INFO [test/benchmark.cpp:268] Kernel mode time: 0.000000 ms
+[16:12:46.292] INFO [test/benchmark.cpp:263]  
+[16:12:46.292] INFO [test/benchmark.cpp:264] Regular Compress: 
+[16:12:46.292] INFO [test/benchmark.cpp:265] Wall time:        0.057146 ms
+[16:12:46.292] INFO [test/benchmark.cpp:266] CPU run time:     0.057000 ms
+[16:12:46.292] INFO [test/benchmark.cpp:267] User mode time:   0.000000 ms
+[16:12:46.292] INFO [test/benchmark.cpp:268] Kernel mode time: 0.000000 ms
