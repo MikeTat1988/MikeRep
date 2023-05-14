@@ -103,7 +103,7 @@ int main(int argc, char* argv[])
         CompNDecompMulticoreTest(myData);
         cout << endl;
 
-        g_toWrite = false;
+        TimeCheck(myData);
 
         cout << "Benchmark ended successfuly" << endl;
     }
