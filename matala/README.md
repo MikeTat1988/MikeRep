@@ -29,6 +29,7 @@ times testing and the benchmark tests are being run -
     b. Multithreaded bitpacking, using 6 cores (default - can be changed)
 
 ********************************************************************************
+run make before runing the execurtable
 
 To run the benchmark, use "./benchmark DATASIZE THREADCOUNT WRITE"
 
