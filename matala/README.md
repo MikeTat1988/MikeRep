@@ -31,9 +31,9 @@ times testing and the benchmark tests are being run -
 ********************************************************************************
 
 To run the benchmark, use "./benchmark DATASIZE THREADCOUNT WRITE"
-    DATASIZE - number of int elements you want to test (1000000 on default)
-    THREADCOUNT - for how many threads will spread the compression (6 on default)
-    WRITE - 1 to test the algorithms, 0 to skip the test ( 0 on default )
+    a. DATASIZE - number of int elements you want to test (1000000 on default)
+    b. THREADCOUNT - for how many threads will spread the compression (6 on default)
+    c. WRITE - 1 to test the algorithms, 0 to skip the test ( 0 on default )
 
 example ./benchmark 10000 4 1
 
@@ -47,7 +47,14 @@ Results -
 For each run of benchmark file there will be two results inseted - Parallel Compress 
 and Regular Compress times in milliseconds , as follows :
 
-Wall time:        time elapsed in the real world ( with no multithreading is wequal to CPU time)
-CPU run time:     time elapsed on CPU cores ( on multithreading is the sum of all threads times)
-User mode time:   time elapsed in user mode
-Kernel mode time: time elapsed in kernel mode ( in our cas - paging of the data )
+a. Wall time:        time elapsed in the real world ( with no multithreading is wequal to CPU time)
+b. CPU run time:     time elapsed on CPU cores ( on multithreading is the sum of all threads times)
+c. User mode time:   time elapsed in user mode
+d. Kernel mode time: time elapsed in kernel mode ( in our cas - paging of the data )
+
+example from log :
+* [16:09:32.649] INFO [test/benchmark.cpp:264] Regular Compress: 
+* [16:09:32.649] INFO [test/benchmark.cpp:265] Wall time:        683.760819 ms
+* [16:09:32.649] INFO [test/benchmark.cpp:266] CPU run time:     682.302000 ms
+* [16:09:32.649] INFO [test/benchmark.cpp:267] User mode time:   660.000000 ms
+* [16:09:32.649] INFO [test/benchmark.cpp:268] Kernel mode time: 30.000000 ms
