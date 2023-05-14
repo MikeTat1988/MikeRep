@@ -19,7 +19,10 @@ namespace ham
 class BpackCompresser : public Compresser
 {
 public:
-    // using generated Ctor, Dtor and CCtor
+    BpackCompresser() = default;
+    ~BpackCompresser() = default;
+    BpackCompresser(const BpackCompresser&) = default;
+    const BpackCompresser& operator=(const BpackCompresser&) = delete;
 
     std::vector<uint8_t> Compress(const std::vector<int>& data) override;
     std::vector<int> Decompress(const std::vector<uint8_t>& compData) override;
