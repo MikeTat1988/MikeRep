@@ -31,9 +31,10 @@ times testing and the benchmark tests are being run -
 ********************************************************************************
 
 To run the benchmark, use "./benchmark DATASIZE THREADCOUNT WRITE"
-    * DATASIZE - number of int elements you want to test (1000000 on default)
-    * THREADCOUNT - for how many threads will spread the compression (6 on default)
-    * WRITE - 1 to test the algorithms, 0 to skip the test ( 0 on default )
+
+* DATASIZE - number of int elements you want to test (1000000 on default)
+* THREADCOUNT - for how many threads will spread the compression (6 on default)
+* WRITE - 1 to test the algorithms, 0 to skip the test ( 0 on default )
 
 example ./benchmark 10000 4 1
 
