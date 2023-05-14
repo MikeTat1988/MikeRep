@@ -20,6 +20,9 @@ class BpackRLCompresser : public Compresser
 {
 public:
     explicit BpackRLCompresser(size_t originalSize) : m_datasize(originalSize) {};
+    ~BpackRLCompresser() = default;
+    BpackRLCompresser(const BpackRLCompresser&) = default;
+    const BpackRLCompresser& operator=(const BpackRLCompresser&) = delete;
     // using generated Dtor and CCtor
 
     std::vector<uint8_t> Compress(const std::vector<int>& data) override;
