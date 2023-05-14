@@ -20,9 +20,7 @@ class MultiThreadCompresser : public Compresser
 {
 public:
     explicit MultiThreadCompresser(int numOfThreads) :m_numOfThreads(numOfThreads) {};
-    ~MultiThreadCompresser() = default;
-    MultiThreadCompresser(const MultiThreadCompresser&) = default;
-    const MultiThreadCompresser& operator=(const MultiThreadCompresser&) = delete;
+    // using generated Dtor and CCtor
 
     std::vector<uint8_t> Compress(const std::vector<int>& data) override;
     std::vector<int> Decompress(const std::vector<uint8_t>& compData) override;

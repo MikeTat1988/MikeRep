@@ -10,11 +10,17 @@ DEP = $(OBJ:.o=.d)
 LIB = libassignment.a
 OUT = benchmark
 
+DIRS = log data
+
 # Phony targets
 .PHONY: $(OUT) clean
 
 # Default target
-all: $(OUT)
+all: dirs $(OUT)
+
+# Rule to create necessary directories
+dirs:
+	mkdir -p $(DIRS)
 
 # Rule to make the output file
 $(OUT): test/benchmark.cpp $(LIB)

@@ -25,8 +25,10 @@ folder.
 After that the g_Test and g_toEtite are set to false to not interfere with the 
 times testing and the benchmark tests are being run - 
 
-    a. Regular bitpacking and unpacking of data (without testing - as it was tested earlier)
-    b. Multithreaded bitpacking
+    a. Single threaded compress - bitpacking algorithm
+    b. Multithreaded compress - bitpacking algorithm
+    c. Single threaded decompress of data
+    d. Multithreaded decompress of data
 
 ********************************************************************************
 run make before runing the execurtable
@@ -49,15 +51,15 @@ Results -
 For each run of benchmark file there will be two results inseted - Parallel Compress 
 and Regular Compress times in milliseconds , as follows :
 
-* Wall time:        time elapsed in the real world ( with no multithreading is wequal to CPU time)
-* CPU run time:     time elapsed on CPU cores ( on multithreading is the sum of all threads times)
-* User mode time:   time elapsed in user mode
-* Kernel mode time: time elapsed in kernel mode ( in our cas - paging of the data )
+* Benchmark time:   time elapsed from start to end of compression / decompression
+* CPU run time:     additional info - time elapsed on CPU threads
+* User mode time:   additional info -time elapsed in user mode
+* Kernel mode time: additional info -  time elapsed in kernel mode 
 
 example from log :
-* [16:09:32.649] INFO [test/benchmark.cpp:264] Regular Compress: 
-* [16:09:32.649] INFO [test/benchmark.cpp:265] Wall time:        683.760819 ms
-* [16:09:32.649] INFO [test/benchmark.cpp:266] CPU run time:     682.302000 ms
-* [16:09:32.649] INFO [test/benchmark.cpp:267] User mode time:   660.000000 ms
-* [16:09:32.649] INFO [test/benchmark.cpp:268] Kernel mode time: 30.000000 ms
+* [18:57:36.403] INFO [test/benchmark.cpp:310] 6 Threads Bitpacking Decompress: 
+* [18:57:36.403] INFO [test/benchmark.cpp:311] Benchmark time:   13.221033 ms
+* [18:57:36.403] INFO [test/benchmark.cpp:312] CPU run time:     59.417000 ms
+* [18:57:36.403] INFO [test/benchmark.cpp:313] User mode time:   60.000000 ms
+* [18:57:36.403] INFO [test/benchmark.cpp:314] Kernel mode time: 0.000000 ms
 

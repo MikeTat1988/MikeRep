@@ -18,10 +18,6 @@ class Compresser
 {
 public:
     // using generated Ctor, Dtor and CCtor
-    Compresser() = default;
-    ~Compresser() = default;
-    Compresser(const Compresser&) = default;
-    const Compresser& operator=(const Compresser&) = delete;
 
     virtual std::vector<uint8_t> Compress(const std::vector<int>& data) = 0;
     virtual std::vector<int> Decompress(const std::vector<uint8_t>& compData) = 0;
