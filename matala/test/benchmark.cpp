@@ -20,9 +20,10 @@
 #include "utils.hpp"        // ReturnIfBad
 #include "logger.hpp"       // logger
 #include "singleton.hpp"    // for logger
-#include "bitpack.hpp"
 #include "compresser.hpp"
+#include "bitpack.hpp"
 #include "bitpack_parallel.hpp"
+#include "bitpack_parallel_tp.hpp"
 #include "bitpack_rl.hpp"
 
 using namespace std;
@@ -36,6 +37,7 @@ void ReadWriteTest(const vector<int>&);
 void CompNDecompBpackTest(const vector<int>&);
 void CompNDecompBpackRLTest(const vector<int>& myData_);
 void CompNDecompMulticoreTest(const vector<int>&);
+void CompNDecompMulticoreTPTest(const vector<int>&);
 void CompNDecompBpackRLSortedTest(const vector<int>& myData_);
 
 void TimeCheck(const vector<int>& myData_);
@@ -46,7 +48,7 @@ void PrintTImes(double t_benchmark, double t_cpu, double t_user, double t_system
 
 
 // *****************    DEFAULT CONFIGURATIONS   *******************************
-size_t g_datasize = 10000000;
+size_t g_datasize = 100;
 size_t g_ThreadCount = 6;
 bool g_toWrite = false;
 // *****************************************************************************
@@ -95,12 +97,15 @@ int main(int argc, char* argv[])
 
         vector<int> myData = g_data.Read();
 
-        // Perform the tests 
+
+
+        // Perform the tests
         ReadWriteTest(myData);
         CompNDecompBpackTest(myData);
         CompNDecompBpackRLTest(myData);
         CompNDecompBpackRLSortedTest(myData);
         CompNDecompMulticoreTest(myData);
+        CompNDecompMulticoreTPTest(myData);
         cout << endl;
 
         TimeCheck(myData);
@@ -120,16 +125,20 @@ void TimeCheck(const vector<int>& myData_)
 {
     BpackCompresser myComp_BP;
     MultiThreadCompresser myComp_MTBP(g_ThreadCount);
+    MultiThreadCompresserTP myComp_MTBP_TP(g_ThreadCount);
 
     auto compData = myComp_MTBP.Compress(myData_); // compress the data for decompression benchmark
 
     // compress benchmark
     PerformCompressionBenchmark(myComp_BP, myData_, "One Thread Bitpacking Compress");
     PerformCompressionBenchmark(myComp_MTBP, myData_, to_string(g_ThreadCount) + " Threads Bitpacking Compress: ");
+    PerformCompressionBenchmark(myComp_MTBP_TP, myData_, to_string(g_ThreadCount) + " Threads Bitpacking Compress with THREADPOOL: ");
 
     // decompress
     PerformDecompressionBenchmark(myComp_BP, compData, "One Thread Bitpacking Decompress");
     PerformDecompressionBenchmark(myComp_MTBP, compData, to_string(g_ThreadCount) + " Threads Bitpacking Decompress: ");
+    PerformCompressionBenchmark(myComp_MTBP_TP, myData_, to_string(g_ThreadCount) + " Threads Bitpacking Decompress with THREADPOOL: ");
+
 }
 
 void ReadWriteTest(const vector<int>& myData_)
@@ -217,6 +226,23 @@ void CompNDecompMulticoreTest(const vector<int>& myData_)
 
 }
 
+void CompNDecompMulticoreTPTest(const vector<int>& myData_)
+{
+    MultiThreadCompresserTP myComp(g_ThreadCount);
+
+    auto compData = myComp.Compress(myData_);
+
+    // wait untill compData ended
+    while (compData.empty()) {}
+
+    auto decompData = myComp.Decompress(compData);
+
+    // Print(decompData);
+
+    CheckNWrite(myData_, decompData, compData, "multithread_BitPack_THREADPOOL");
+
+}
+
 void CheckNWrite(const vector<int>& data_, const vector<int>& decompData_, const vector<uint8_t>& compData_, string type)
 {
     RETURN_IF_BAD(decompData_.size() != g_datasize, "WRONG DATA SIZE -" + type);
@@ -245,6 +271,7 @@ void Print(const vector<int>& vec_)
     cout << endl;
 }
 
+
 void PerformCompressionBenchmark(Compresser& comp, const vector<int>& data, string type)
 {
     auto start_benchmark_time = chrono::high_resolution_clock::now();
@@ -272,7 +299,6 @@ void PerformCompressionBenchmark(Compresser& comp, const vector<int>& data, stri
 
     PrintTImes(t_benchmark, t_cpu, t_user, t_system, type);
 }
-
 
 void PerformDecompressionBenchmark(Compresser& comp, const vector<uint8_t>& data, string type)
 {
