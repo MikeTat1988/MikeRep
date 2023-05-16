@@ -2,7 +2,7 @@ Project:      HOME_ASSIGNMENT
 Description:  README FILE
 Author:       Michael
 Date:         13/12/23
-Version:      1.0
+Version:      1.1 = threadpool added
 
 For understanding the performance you can read AssignmentBenchmark.pdf
 
@@ -13,6 +13,7 @@ writes it to binary file in ./data folder and it will perform 4 tests on it:
     b. Bitpacking with Read-Length (34 34 34 34 becomes 127 34 4 - where 127 is a special value)
     c. Bitpacking with Read-Length on same data after rearranging it to make repetitions
     d. Multithreaded Bitpacking
+    e. Multithreaded Bitpacking using Threadpool
 
 On each test it reads the previously created data to a vector, compresses it, 
 decompresses and then checks that the length and the members are the same as original.
@@ -22,12 +23,15 @@ corresponding file in ./data folder.
 Test results (passed / not passed) will be printed into a log file located in log
 folder.
 
-After the benchmark tests are being run - 
+After that the g_Test and g_toEtite are set to false to not interfere with the 
+times testing and the benchmark tests are being run - 
 
     a. Single threaded compress - bitpacking algorithm
     b. Multithreaded compress - bitpacking algorithm
-    c. Single threaded decompress of data
-    d. Multithreaded decompress of data
+    c. Multithreaded compress with Threadpool 
+    d. Single threaded decompress of data
+    e. Multithreaded decompress of data
+    f. Multithreaded decompress with Threadpool 
 
 ********************************************************************************
 run make before runing the execurtable
