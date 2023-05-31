@@ -13,7 +13,7 @@ writes it to binary file in ./data folder and it will perform 4 tests on it:
     b. Bitpacking with Read-Length (34 34 34 34 becomes 127 34 4 - where 127 is a special value)
     c. Bitpacking with Read-Length on same data after rearranging it to make repetitions
     d. Multithreaded Bitpacking
-    e. Multithreaded Bitpacking using Threadpool
+    e. Multithreaded Bitpacking using Threadpool 
 
 On each test it reads the previously created data to a vector, compresses it, 
 decompresses and then checks that the length and the members are the same as original.
