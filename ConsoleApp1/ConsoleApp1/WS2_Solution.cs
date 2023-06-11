@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace hrd27
@@ -32,6 +33,61 @@ namespace hrd27
             m_head = newNode;
             m_size++;
         }
+
+        public T? Pop()
+        {
+            if (m_head == null)
+            {
+                throw new InvalidOperationException("List is empty");
+            }
+
+            T? ret = m_head.Data;
+
+            m_head = m_head.Next;
+
+            --m_size;
+
+            return ret;
+        }
+
+        public bool IsEmpty()
+        {
+            return m_size == 0;
+        }
+        public void Clear()
+        {
+            m_head = null;
+            m_size = 0;
+        }
+
+        public T? Head()
+        {
+            if (m_head == null)
+            {
+                throw new InvalidOperationException("List is empty");
+            }
+
+            return m_head.Data;
+        }
+
+        public int Count()
+        { 
+            return m_size; 
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            Node? current = m_head;
+
+            while (current != null)
+            {
+                yield return current.Data;
+                current = current.Next;
+            }
+        }
+
+
+
     }
 
     public class ThisStack<T>

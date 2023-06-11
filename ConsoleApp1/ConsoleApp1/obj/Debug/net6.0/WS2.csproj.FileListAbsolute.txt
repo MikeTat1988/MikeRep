@@ -13,3 +13,6 @@ C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debu
 C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\WS2.pdb
 C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\WS2.genruntimeconfig.cache
 C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\WS2.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ShapeLibrary.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ShapeLibrary.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\WS2.csproj.CopyComplete

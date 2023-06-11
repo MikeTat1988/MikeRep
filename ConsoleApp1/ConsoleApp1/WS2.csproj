@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="ShapeLibrary">
+      <HintPath>..\..\ShapeLibrary\bin\Debug\net6.0\ShapeLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

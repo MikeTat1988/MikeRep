@@ -1,0 +1,12 @@
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ShapeLibrary\bin\Debug\net6.0\ShapeLibrary.deps.json
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ShapeLibrary\bin\Debug\net6.0\ShapeLibrary.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ShapeLibrary\bin\Debug\net6.0\ShapeLibrary.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ShapeLibrary\obj\Debug\net6.0\ShapeLibrary.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ShapeLibrary\obj\Debug\net6.0\ShapeLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ShapeLibrary\obj\Debug\net6.0\ShapeLibrary.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ShapeLibrary\obj\Debug\net6.0\ShapeLibrary.AssemblyInfo.cs
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ShapeLibrary\obj\Debug\net6.0\ShapeLibrary.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ShapeLibrary\obj\Debug\net6.0\ShapeLibrary.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ShapeLibrary\obj\Debug\net6.0\refint\ShapeLibrary.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ShapeLibrary\obj\Debug\net6.0\ShapeLibrary.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ShapeLibrary\obj\Debug\net6.0\ref\ShapeLibrary.dll
