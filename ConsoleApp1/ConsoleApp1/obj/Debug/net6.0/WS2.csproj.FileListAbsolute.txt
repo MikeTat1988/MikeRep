@@ -1,0 +1,15 @@
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\WS2.exe
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\WS2.deps.json
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\WS2.runtimeconfig.json
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\WS2.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\WS2.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\WS2.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\WS2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\WS2.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\WS2.AssemblyInfo.cs
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\WS2.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\WS2.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\refint\WS2.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\WS2.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\WS2.genruntimeconfig.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\WS2.dll
