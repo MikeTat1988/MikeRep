@@ -1,0 +1,15 @@
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\bin\Debug\net6.0\AdvancedC#.exe
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\bin\Debug\net6.0\AdvancedC#.deps.json
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\bin\Debug\net6.0\AdvancedC#.runtimeconfig.json
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\bin\Debug\net6.0\AdvancedC#.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\bin\Debug\net6.0\AdvancedC#.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\obj\Debug\net6.0\AdvancedC#.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\obj\Debug\net6.0\AdvancedC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\obj\Debug\net6.0\AdvancedC#.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\obj\Debug\net6.0\AdvancedC#.AssemblyInfo.cs
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\obj\Debug\net6.0\AdvancedC#.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\obj\Debug\net6.0\AdvancedC#.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\obj\Debug\net6.0\refint\AdvancedC#.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\obj\Debug\net6.0\AdvancedC#.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\obj\Debug\net6.0\AdvancedC#.genruntimeconfig.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\AdvancedC#\obj\Debug\net6.0\ref\AdvancedC#.dll
