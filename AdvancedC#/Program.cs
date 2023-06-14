@@ -49,7 +49,6 @@ class Program
         notificationService.Sub(subscriber2);
         notificationService.Sub(subscriber3);
 
-
         notificationService.NotifySubscribers("hello");
 
         Console.ReadLine();
