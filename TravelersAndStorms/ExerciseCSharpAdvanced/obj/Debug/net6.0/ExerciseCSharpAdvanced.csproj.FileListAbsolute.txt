@@ -1,0 +1,15 @@
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\bin\Debug\net6.0\ExerciseCSharpAdvanced.exe
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\bin\Debug\net6.0\ExerciseCSharpAdvanced.deps.json
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\bin\Debug\net6.0\ExerciseCSharpAdvanced.runtimeconfig.json
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\bin\Debug\net6.0\ExerciseCSharpAdvanced.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\bin\Debug\net6.0\ExerciseCSharpAdvanced.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\obj\Debug\net6.0\ExerciseCSharpAdvanced.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\obj\Debug\net6.0\ExerciseCSharpAdvanced.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\obj\Debug\net6.0\ExerciseCSharpAdvanced.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\obj\Debug\net6.0\ExerciseCSharpAdvanced.AssemblyInfo.cs
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\obj\Debug\net6.0\ExerciseCSharpAdvanced.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\obj\Debug\net6.0\ExerciseCSharpAdvanced.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\obj\Debug\net6.0\refint\ExerciseCSharpAdvanced.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\obj\Debug\net6.0\ExerciseCSharpAdvanced.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\obj\Debug\net6.0\ExerciseCSharpAdvanced.genruntimeconfig.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TravelersAndStorms\ExerciseCSharpAdvanced\obj\Debug\net6.0\ref\ExerciseCSharpAdvanced.dll
