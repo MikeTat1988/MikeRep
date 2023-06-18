@@ -154,7 +154,6 @@ class Program
         park.Enter(new Family(4));
         park.Enter(new Single("Chad"));
         
-
         // Keep the console window open long enough to see the results
         // WeatherCentre will automatically start monitoring and triggering alerts
         System.Threading.Thread.Sleep(2000);  // Wait for 2 seconds
