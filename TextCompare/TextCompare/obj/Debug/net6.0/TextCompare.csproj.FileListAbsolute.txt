@@ -1,0 +1,15 @@
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\bin\Debug\net6.0\TextCompare.exe
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\bin\Debug\net6.0\TextCompare.deps.json
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\bin\Debug\net6.0\TextCompare.runtimeconfig.json
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\bin\Debug\net6.0\TextCompare.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\bin\Debug\net6.0\TextCompare.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\obj\Debug\net6.0\TextCompare.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\obj\Debug\net6.0\TextCompare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\obj\Debug\net6.0\TextCompare.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\obj\Debug\net6.0\TextCompare.AssemblyInfo.cs
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\obj\Debug\net6.0\TextCompare.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\obj\Debug\net6.0\TextCompare.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\obj\Debug\net6.0\refint\TextCompare.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\obj\Debug\net6.0\TextCompare.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\obj\Debug\net6.0\TextCompare.genruntimeconfig.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\TextCompare\TextCompare\obj\Debug\net6.0\ref\TextCompare.dll
