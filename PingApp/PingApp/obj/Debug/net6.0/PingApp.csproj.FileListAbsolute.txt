@@ -1,0 +1,15 @@
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\bin\Debug\net6.0\PingApp.exe
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\bin\Debug\net6.0\PingApp.deps.json
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\bin\Debug\net6.0\PingApp.runtimeconfig.json
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\bin\Debug\net6.0\PingApp.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\bin\Debug\net6.0\PingApp.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\obj\Debug\net6.0\PingApp.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\obj\Debug\net6.0\PingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\obj\Debug\net6.0\PingApp.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\obj\Debug\net6.0\PingApp.AssemblyInfo.cs
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\obj\Debug\net6.0\PingApp.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\obj\Debug\net6.0\PingApp.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\obj\Debug\net6.0\refint\PingApp.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\obj\Debug\net6.0\PingApp.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\obj\Debug\net6.0\PingApp.genruntimeconfig.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PingApp\PingApp\obj\Debug\net6.0\ref\PingApp.dll

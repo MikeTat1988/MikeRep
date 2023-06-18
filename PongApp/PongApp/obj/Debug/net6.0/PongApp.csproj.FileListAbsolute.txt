@@ -1,0 +1,15 @@
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\bin\Debug\net6.0\PongApp.exe
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\bin\Debug\net6.0\PongApp.deps.json
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\bin\Debug\net6.0\PongApp.runtimeconfig.json
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\bin\Debug\net6.0\PongApp.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\bin\Debug\net6.0\PongApp.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\obj\Debug\net6.0\PongApp.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\obj\Debug\net6.0\PongApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\obj\Debug\net6.0\PongApp.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\obj\Debug\net6.0\PongApp.AssemblyInfo.cs
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\obj\Debug\net6.0\PongApp.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\obj\Debug\net6.0\PongApp.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\obj\Debug\net6.0\refint\PongApp.dll
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\obj\Debug\net6.0\PongApp.pdb
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\obj\Debug\net6.0\PongApp.genruntimeconfig.cache
+C:\Users\micha\source\repos\MikeTat1988\MikeRep\PongApp\PongApp\obj\Debug\net6.0\ref\PongApp.dll
