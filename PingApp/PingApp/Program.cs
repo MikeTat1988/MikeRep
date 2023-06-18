@@ -1,30 +1,32 @@
 ﻿using System;
+using System.IO;
 using System.IO.Pipes;
 using System.Text;
+using System.Threading;
 
 class PingProgram
 {
     static void Main()
     {
-        Console.WriteLine("Ping application started. Press any key to send a Ping. Press 'Q' to quit.");
-
-        while (true)
+        using (var pipeServer = new NamedPipeServerStream("PingPongPipe"))
+        using (var reader = new StreamReader(pipeServer, Encoding.UTF8))
+        using (var writer = new StreamWriter(pipeServer, Encoding.UTF8))
         {
-            using (var pipeServer = new NamedPipeServerStream("PingPongPipe"))
+            pipeServer.WaitForConnection();
+            Console.WriteLine("Connected to Pong.");
+
+            while (true)
             {
-                pipeServer.WaitForConnection();
-                ConsoleKeyInfo keyInfo = Console.ReadKey();
+                writer.WriteLine("Ping!");
+                writer.Flush();
 
-                if (keyInfo.Key == ConsoleKey.Q)
-                    break;
+                Thread.Sleep(500); // Wait for 0.5 second 
 
-                using (var writer = new StreamWriter(pipeServer, Encoding.UTF8, 4096, leaveOpen: true))
-                {
-                    writer.WriteLine("Ping");
-                }
-
-                Console.WriteLine("Pong");
+                string response = reader.ReadLine();
+                Console.WriteLine($"Received: {response}");
             }
+
+            Console.WriteLine("Closing connection...");
         }
     }
 }
