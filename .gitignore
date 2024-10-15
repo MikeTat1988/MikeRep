@@ -3,6 +3,7 @@
 .vs/
 bin/
 obj/
+ePicSearch/Logs/
 
 # Ignore Xamarin specific files
 .DS_Store
