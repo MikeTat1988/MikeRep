@@ -1,0 +1,5 @@
+VIEW JSON:
+run-as com.companyname.epicsearch cat /data/data/com.companyname.epicsearch/files/adventures.json
+
+VIEW FILES:
+run-as com.companyname.epicsearch ls /data/data/com.companyname.epicsearch/files/

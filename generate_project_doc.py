@@ -34,6 +34,16 @@ def add_file_content(doc, file_path):
     except Exception as e:
         doc.add_paragraph(f"[Error reading {file_path}: {e}]")
 
+def add_files_list(doc, folder_path, folder_name, file_counter):
+    """List files from a specific folder without adding their content."""
+    if os.path.exists(folder_path):
+        doc.add_heading(f"Files in {folder_name}:", level=2)
+        for file in os.listdir(folder_path):
+            file_path = os.path.join(folder_path, file)
+            if os.path.isfile(file_path):
+                doc.add_paragraph(file, style='NoSpacing')
+                file_counter[0] += 1
+
 def generate_document():
     """Generate a Word document with the project structure and file contents."""
     doc = Document()
@@ -65,12 +75,16 @@ def generate_document():
         else:
             print(f"File not found: {file_path}")  # Debugging
 
-    for folder in ["Entities", "Services", "Views"]:
+    for folder in ["Entities", "Services", "Views", "Behaviors"]:
         folder_path = os.path.join(main_folder, folder)
         if os.path.exists(folder_path):
             add_files_from_folder(doc, folder_path, folder, file_counter)
         else:
             print(f"Folder not found: {folder_path}")  # Debugging
+
+    # List files from Resources/Images
+    images_folder = os.path.join(main_folder, "Resources", "Images")
+    add_files_list(doc, images_folder, "Resources\\Images", file_counter)
 
     # Core project
     doc.add_heading('Project: ePicSearch.Core', level=1)
