@@ -62,7 +62,7 @@ def generate_document():
     # Main project
     doc.add_heading('Project: ePicSearch', level=1)
     main_files = [
-        "ePicSearch.csproj", "App.xaml", "AppShell.xaml",
+        "ePicSearch.csproj", "App.xaml","App.xaml.cs", "AppShell.xaml",
         "AppShell.xaml.cs", "MauiProgram.cs"
     ]
     for file in main_files:
