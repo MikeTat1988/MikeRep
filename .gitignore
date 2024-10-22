@@ -4,8 +4,7 @@
 bin/
 obj/
 ePicSearch/Logs/
-*.docx
-*.doc
+Project_Structure.docx
 
 # Ignore Xamarin specific files
 .DS_Store
