@@ -3,3 +3,6 @@ run-as com.companyname.epicsearch cat /data/data/com.companyname.epicsearch/file
 
 VIEW FILES:
 run-as com.companyname.epicsearch ls /data/data/com.companyname.epicsearch/files/
+
+CREATE EXE:
+pyinstaller --onefile name_of_file.py

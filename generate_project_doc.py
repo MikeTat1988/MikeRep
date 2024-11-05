@@ -75,7 +75,7 @@ def generate_document():
         else:
             print(f"File not found: {file_path}")  # Debugging
 
-    for folder in ["Entities", "Services", "Views", "Behaviors"]:
+    for folder in ["Entities", "Services", "Views", "Behaviors", "Helpers", "Labels"]:
         folder_path = os.path.join(main_folder, folder)
         if os.path.exists(folder_path):
             add_files_from_folder(doc, folder_path, folder, file_counter)
